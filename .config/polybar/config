@@ -50,7 +50,7 @@ font-2 = monospace:size=20;5
 
 modules-left = arch-icon i3
 modules-center = mpd
-modules-right = volume wlan temperature date
+modules-right = volume temperature date
 
 cursor-click = pointer
 cursor-scroll = ns-resize
