@@ -39,12 +39,16 @@ format_swap = "{SUp}%"
 [[block]]
 block = "cpu"
 interval = 1
-format = "{barchart} {utilization}% {frequency}GHz"
 
 [[block]]
 block = "load"
 interval = 1
 format = "{1m}"
+
+[[block]]
+block = "battery"
+driver = "upower"
+format = "{percentage}%"
 
 [[block]]
 block = "time"
