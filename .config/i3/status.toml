@@ -23,6 +23,14 @@ label = " jabbie"
 block = "sound"
 
 [[block]]
+block = "net"
+device = "wlp1s0"
+ssid = true
+speed_up = false
+speed_down = false
+interval = 5
+
+[[block]]
 block = "memory"
 display_type = "memory"
 format_mem = "{Mup}%"
