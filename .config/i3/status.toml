@@ -23,6 +23,12 @@ label = " jabbie"
 block = "sound"
 
 [[block]]
+block = "net"
+device = "eno1"
+interval = 5
+use_bits = true
+
+[[block]]
 block = "memory"
 display_type = "memory"
 format_mem = "{Mup}%"
